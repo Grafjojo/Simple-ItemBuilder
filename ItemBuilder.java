@@ -45,6 +45,11 @@ public class ItemBuilder {
         itemMeta.addItemFlags(itemFlags);
         return this;
     }
+    
+    public ItemBuilder setAmount(Integer amount) {
+        itemStack.setAmount(amount);
+        return this;
+    }
 
     public ItemStack build() {
         itemStack.setItemMeta(itemMeta);
