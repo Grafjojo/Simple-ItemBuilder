@@ -1,5 +1,3 @@
-package de.grafjojo.worldmanager.util;
-
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemFlag;
